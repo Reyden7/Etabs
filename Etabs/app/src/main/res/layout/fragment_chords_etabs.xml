@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:background="@drawable/brackgroundblur"
+    >
+
+
+    <TextView
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:text="Chords"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/chord_do"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dodo"> <!-- a changer -->
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/chord_re"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/re"> <!-- a changer -->
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/chord_mi"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mi"> <!-- a changer -->
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/chord_fa"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fa"> <!-- a changer -->
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/chord_sol"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sol"> <!-- a changer -->
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/chord_la"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/la"> <!-- a changer -->
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/chord_si"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/si"> <!-- a changer -->
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/chord_dom"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dom"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_rem"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rem"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_mim"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mim"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_fam"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fam"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_solm"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/solm"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_lam"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lam"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_sim"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sim"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_do7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/do7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_re7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/re7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_mi7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mi7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_f7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fa7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_sol7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sol7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_la7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/la7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_si7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/si7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_dom7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dom7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_rem7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rem7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_mim7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mim7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_fam7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fam7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_solm7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/solm7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_lam7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lam7"> <!-- a changer -->
+            </ImageView>
+            <ImageView
+                android:id="@+id/chord_sim7"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sim7"> <!-- a changer -->
+            </ImageView>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <!-- Home page -->
+    <string name="app_name">E-tabs</string>
+
+    <string name="home_item"></string>
+    <string name="add_item"></string>
+    <string name="chords_item"></string>
+
+    <!-- Create tabs -->
+    <string name="createTitle">Créer une E-tabs</string>
+    <string name="addTitle">Add Title...</string>
+    <string name="addArtist">Add Artist...</string>
+    <string name="addEtabs">Add...</string>
+    <string name="addColor">Choose a color</string>
+
+    <!-- E-tabs -->
+    <string name="chords">Chords</string>
+
+    <string-array name="add_etabs_spinner">
+        <item>Simple</item>
+        <item>Moyen</item>
+        <item>Difficile</item>
+        <item>Hardcore</item>
+        <item>Rien</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

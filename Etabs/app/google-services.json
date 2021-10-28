@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777426700047",
+    "project_id": "etabs-7c181",
+    "storage_bucket": "etabs-7c181.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777426700047:android:d6c5b2a036645fbc2ce07a",
+        "android_client_info": {
+          "package_name": "fr.Reyden.e_tabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777426700047-g54i41v5031sstgosnuouk00hijffm7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv6r9mogkXXzuUylwkQ5hfEqymflw08Lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777426700047-g54i41v5031sstgosnuouk00hijffm7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
